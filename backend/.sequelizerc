@@ -1,0 +1,14 @@
+module.exports={
+    'migrations-path': 'src/database/migrations',
+    'models-path': 'src/app/models',
+    'config':'src/database/config.js'
+}
+
+
+
+
+// const path = require('path');
+// module.exports = {
+//     'config': path.resolve(__dirname,'src', 'database', 'config.js'), // caminho do arquivo de configuração do banco de dados.__dirname é uma variável global que retorna o caminho do diretório atual, falando q esta na pasta raiz do projeto, e depois vai para a pasta src, depois config e depois database.js
+//     'migration-path': path.resolve(__dirname,'src', 'database', 'migration') // caminho das migrations
+// }
